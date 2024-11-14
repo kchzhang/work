@@ -22,7 +22,6 @@ jobs:
           # npm install -g yarn
           # yarn install
           # npm run build
-          echo "下载依赖和构建"
 
       - name: Deploy # 第四步：部署
         uses: JamesIves/github-pages-deploy-action@v4
